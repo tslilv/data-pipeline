@@ -56,10 +56,10 @@ def main():
     try:
         conn = mysql.connector.connect(
             host="localhost",
-            user="topazsofer",
-            password="top45496",
-            database="topazsofer",
-            port="3305"
+            user="abc",
+            password="abc",
+            database="abc",
+            port="000"
         )
         global cursor
         cursor = conn.cursor()
