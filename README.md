@@ -1,7 +1,16 @@
-# data-pipeline
+#data-pipeline
+
 A lightweight ETL pipeline that fetches movie data from a CSV file into a MySQL database.
+
 Note: src/queries_execution.py is the main orchestrator script for the entire ETL pipeline.
-All ETL steps (DB setup, data retrieval, transformation, loading) are orchestrated by the main script.
+
+Requirements
+
+Python 3.8 or higher
+
+See requirements.txt for required libraries
+
+Usage
 
 python src/queries_execution.py
 
