@@ -70,8 +70,8 @@ def main():
     # --- Database Initialization (Commented Out for Testing) ---
     # user_choice = input("Do you want to rebuild the database? (yes/no): ").strip().lower()
     # if user_choice == "yes":
-    #     drop_database(conn, cursor, 'topazsofer')
-    #     create_database(conn, cursor, 'topazsofer')
+    #     drop_database(conn, cursor, database)
+    #     create_database(conn, cursor, database)
     #     create_db(conn, cursor)
     #     insert_data(conn, cursor)
     # else:
