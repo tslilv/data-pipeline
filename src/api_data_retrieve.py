@@ -61,12 +61,12 @@ def process_text(col_name):
     """
     Processes text fields containing multiple values separated by '|'.
     This function:
-        - Splits text into separate rows.
-        - Creates unique identifiers for each unique value.
-        - Establishes relationships between movies and these attributes.
+        - Splits text into separate rows
+        - Creates unique identifiers for each unique value
+        - Establishes relationships between movies and these attributes
         - Sets data in DATA dictionary for 'Movie'+col_name and col_name
 
-    :param col_name: (str): The name of the column to process.
+    :param col_name: (str) The name of the column to process.
     """
     # in-place split text
     movies_table[col_name] = movies_table[col_name].str.split('|')
